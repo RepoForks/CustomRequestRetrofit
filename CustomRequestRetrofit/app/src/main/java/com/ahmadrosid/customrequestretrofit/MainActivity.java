@@ -98,7 +98,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         MultipartBody.Builder mutipartBuilder = new MultipartBody.Builder();
         mutipartBuilder.setType(MultipartBody.FORM);
-        mutipartBuilder.addFormDataPart("title", "Square Logo");
         mutipartBuilder.addFormDataPart("id", "1");
         mutipartBuilder.addFormDataPart("key[0][nama]", name1.getText().toString());
         mutipartBuilder.addFormDataPart("key[0][alamat]", address1.getText().toString());
